@@ -1,0 +1,25 @@
+{
+  "dependencies": {
+    "core-js": "^3.24.1",
+    "express": "^4.18.1"
+  },
+  "devDependencies": {
+    "@types/node": "^18.6.3",
+    "eslint": "^8.20.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-node": "^11.1.0",
+    "prettier": "^2.7.1",
+    "typescript": "^4.7.4"
+  },
+  "scripts": {
+    "server": "nodemon src/main.js",
+    "debug": "node src/main.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
