@@ -3,6 +3,7 @@
 
 const http = require('http')
 
+// JSDoc 이용
 /**
  * @typedef Post
  * @property {string} id
@@ -11,6 +12,7 @@ const http = require('http')
  */
 
 /** @type {Post[]} */
+
 const posts = [
   {
     id: 'my_first_post',
